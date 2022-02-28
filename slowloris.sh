@@ -1,6 +1,5 @@
 #!/bin/bash
 
-read -p 'Website:' SITE
-read -p 'Min:' MIN
+read -p 'Website:' Site
 
-sudo docker run -it aminvakil/slowloris $SITE
+sudo docker run -it aminvakil/slowloris $Site
